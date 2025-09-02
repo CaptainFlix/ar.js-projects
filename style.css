@@ -1,11 +1,11 @@
 /* --- Global Variables --- */
 /* A more professional and clean color palette */
 :root {
-    --primary-color: #2c3e50;    /* Dark blue-grey for a professional feel */
+    --primary-color: #eeeeee;    /* Dark blue-grey for a professional feel */
     --accent-color: #3498db;     /* A vibrant blue for CTAs and highlights */
     --background-color: #ecf0f1; /* Light grey for a clean canvas */
-    --text-color: #2c3e50;       /* Consistent with the primary color */
-    --card-bg-color: #ffffff;
+    --text-color: #eeeeee;       /* Consistent with the primary color */
+    --card-bg-color: #2c3e50;
     --shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -21,7 +21,7 @@ body {
 
 header {
     background-color: var(--primary-color);
-    color: #fff;
+    color: #2c3e50;
     padding: 2.5rem 1rem; /* More vertical padding */
     text-align: center;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
@@ -108,3 +108,4 @@ footer {
         padding: 3rem;
     }
 }
+
